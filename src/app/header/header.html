@@ -1,0 +1,9 @@
+<header>
+  <p>Section: {{ pageTitle }}</p>
+  @if (pageTitle === 'Subjects' && total() && totalHours()) {
+    <section class="info-selected">
+      <p>Selected items: {{ total() }}</p>
+      <p>Total: {{ totalHours() }} hours</p>
+    </section>
+  }
+</header>

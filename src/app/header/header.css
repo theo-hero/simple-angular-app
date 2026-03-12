@@ -1,0 +1,15 @@
+header {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  padding: 16px 24px;
+  background: #5478c5;
+  color: #fff;
+  font-weight: 700;
+  font-size: large;
+}
+
+.info-selected {
+  display: flex;
+  gap: 30px;
+}

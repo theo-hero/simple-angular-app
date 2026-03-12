@@ -1,0 +1,7 @@
+@for (subj of this.subjects(); track subj.id) {
+  <div class="item">
+      <input type="checkbox" [checked]="subj.selected" (change)="toggleItem(subj.id, $event.target.checked)" />
+      <p class="item__name">{{ subj.name }}</p>
+    <p class="item__quantity">{{ subj.quantity }} hours</p>
+  </div>
+}
